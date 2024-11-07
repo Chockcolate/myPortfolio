@@ -327,13 +327,13 @@ body::before {
 
 /* Navigation Bar (to keep it consistent with other pages) */
 .gnav-container {
-    background-color: #1a1d2e;
-    padding: 15px 0; /* Increased padding for more height */
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-radius: 20px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
-    text-align: center; /* Centering the navigation items */
+    display: flex;
+    justify-content: center; /* Centers the nav items horizontally */
+    background: rgba(255, 255, 255, 0.1); /* Background for the nav container */
+    border-radius: 20px; /* Rounded edges */
+    padding: 10px 20px; /* Padding to make space around the icons */
+    width: 680px;
+    margin-bottom: 20px; /* Center the container itself */
 }
 
 .gnav-list {
@@ -348,7 +348,7 @@ body::before {
     color: #c0c7e4;
     font-size: 2em; /* Increased font size */
     text-decoration: none;
-    margin: 0 30px; /* Spacing between the items */
+    margin: 0 15px; /* Spacing between the items */
     display: flex;
     align-items: center;
     justify-content: center;
